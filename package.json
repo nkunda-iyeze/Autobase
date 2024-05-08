@@ -1,0 +1,29 @@
+{
+  "name": "Autobase",
+  "main": "index.html",
+  "type": "module",
+  "pear": {
+    "name": "Autobase",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": 540,
+      "width": 720
+    }
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "brittle": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js"
+  },
+  "dependencies": {
+    "autobase": "^6.0.30",
+    "corestore": "^6.18.2",
+    "hyperbee": "^2.19.5",
+    "hypercore": "^10.36.4",
+    "hyperdrive": "^11.8.1"
+  }
+}
